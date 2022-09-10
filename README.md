@@ -1,1 +1,3 @@
-# getwise NodeJS Blog API
+# Getwise NodeJS Blog API
+
+Installation
