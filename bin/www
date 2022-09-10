@@ -8,9 +8,13 @@ var app = require('../app');
 var debug = require('debug')('getwise:server');
 var http = require('http');
 
+const db = require('../config/db/mongoose');
+db.connect();
+
 /**
  * Get port from environment and store in Express.
  */
+
 
 var port = normalizePort(process.env.PORT || '3000');
 app.set('port', port);
