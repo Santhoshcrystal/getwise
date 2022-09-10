@@ -1,0 +1,20 @@
+{
+  "development": {
+      "username": "",
+      "dbName": "",
+      "password": "",
+      "uri": "mongodb://localhost:27017/gitwise"
+  },
+  "test": {
+      "username": "",
+      "dbName": "",
+      "password": "",
+      "uri": "mongodb://localhost:27017/gitwise"
+  },
+  "production": {
+      "username": "",
+      "dbName": "",
+      "password": "",
+      "uri": "mongodb://localhost:27017/gitwise"
+  }
+}
