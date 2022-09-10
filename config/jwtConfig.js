@@ -6,8 +6,13 @@ const loginSecret = {
     googleLogin: "143278732650-pobf3sup5r6n838387ogk17ftd5ufgiq.apps.googleusercontent.com",
 }
 
+const awsConfig = {
+    path: "./config/aws/development.json"
+    // path: ""./config/aws/production.json"
+}
 module.exports = {
     secret,
-    loginSecret
+    loginSecret,
+    awsConfig
 }
 
