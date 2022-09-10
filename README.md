@@ -1,1 +1,1 @@
-# getwise
+# getwise NodeJS Blog API
